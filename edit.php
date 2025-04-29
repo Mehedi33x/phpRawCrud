@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: index.php");
 }
 ?>
-
+<h2>User Edit</h2>
 <form method="POST">
     <input type="text" name="name" value="<?= $user['name'] ?>" required>
     <input type="email" name="email" value="<?= $user['email'] ?>" required>
